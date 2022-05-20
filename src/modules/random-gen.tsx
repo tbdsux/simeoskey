@@ -27,7 +27,7 @@ const RandomGen = () => {
   };
 
   return (
-    <div>
+    <div className="shadow-lg p-6 rounded-lg">
       <div className="flex items-center justify-between">
         <h3 className="font-bold text-lg text-gray-700">
           Generate Random Keys
