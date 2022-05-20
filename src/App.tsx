@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import FindKey from "./modules/find-key";
 import RandomGen from "./modules/random-gen";
 import Validate from "./modules/validate";
 
@@ -90,7 +91,9 @@ function App() {
             <Tab.Panel>
               <Validate />
             </Tab.Panel>
-            <Tab.Panel></Tab.Panel>
+            <Tab.Panel>
+              <FindKey />
+            </Tab.Panel>
           </Tab.Panels>
         </Tab.Group>
       </main>
